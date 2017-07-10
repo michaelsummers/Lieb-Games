@@ -1,0 +1,14 @@
+import javax.swing.JFrame;
+import java.awt.image.*;
+
+public class Line extends JFrame{
+  private int x;
+  private int y;
+  private BufferedImage img;
+
+  public Line(){
+    super();
+    setSize(200, 222);
+    System.out.println(JFrame.EXIT_ON_CLOSE);
+  }
+}
